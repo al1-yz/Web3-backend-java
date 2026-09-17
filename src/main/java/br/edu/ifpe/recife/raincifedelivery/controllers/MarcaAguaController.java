@@ -42,6 +42,8 @@ public class MarcaAguaController extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet MarcaAguaController at " + request.getContextPath() + "</h1>");
+            out.println("<a href='cadastroMarcaAgua.html'>Voltar</a>");
+            out.println("<a href='marcaAguas'>Ver marcas cadastradas</a>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -95,6 +97,8 @@ public class MarcaAguaController extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Cadastro feito com o lobo pidão</h1>");
+            out.println("<a href='cadastroMarcaAgua.html'>voltar</a></br>");
+            out.println("<a href='MarcaAguas'>Ver marcas cadastradas</a></br>");
             out.println("</body>");
             out.println("</html>");
         }
